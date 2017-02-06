@@ -1,0 +1,12 @@
+.alert {
+  margin: 0;
+  text-align: center;
+  color: white;
+  transform: skewy(-6deg);
+}
+.alert-info {
+  background: $green;
+}
+.alert-warning {
+  background: $red;
+}
