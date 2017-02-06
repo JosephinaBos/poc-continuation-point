@@ -1,0 +1,60 @@
+h2 {
+  text-align: center;
+  color: #616668;
+  font-size: 50px;
+  margin-top: 75px;
+}
+
+.basic-form {
+  width: 400px;
+  height: 320px;
+  margin: auto;
+  margin-top: 75px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  & a {
+    margin: -25px -18px 5px 13px;
+  }
+}
+
+.basic-button {
+  width: 75px;
+  height: 40px;
+  background-color: #324a5e;
+  color: white;
+  border: 1px solid #324a5e;
+  border-radius: 5px;
+  margin: 0px 0px 20px 140px;
+}
+
+.basic-button:hover {
+  color: white;
+  background-color: #4c7494;
+  border-color: #4c7494;
+}
+
+.form-inputs {
+
+  & input {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    width: 335px;
+    padding: 5px 10px;
+  }
+}
+
+label {
+  color: #616668;
+  margin: 5px 0px 10px 10px;
+}
+
+.checkbox {
+  margin-left: 32px;
+  margin-bottom: 10px;
+}

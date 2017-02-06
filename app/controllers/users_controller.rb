@@ -10,7 +10,7 @@ class UsersController < ApplicationController
   def destroy
     sign_out
     flash[:success] = "You are logged out"
-    redirect_to movies_path
+    redirect_to root_path
   end
 
  private
