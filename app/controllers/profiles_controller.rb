@@ -1,4 +1,7 @@
 class ProfilesController < ApplicationController
+
+  before_action :find_profile, only: [:show, :edit, :update]
+
   def new
     @profile = Profile.new
   end
