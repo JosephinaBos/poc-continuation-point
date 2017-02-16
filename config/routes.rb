@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  resources :users, only: [:update, :edit, :destroy] do
-    resources :profile, only: [:index, :show, :edit, :update]
-  end
+  get '/surfly_cookie_transfer', to: 'surfly_cookie_transfer#show', as: 'surfly_cookie_transfer'
+
+  resources :users, only: [:update, :edit, :destroy]
 
   devise_for :users, controllers: {registrations: 'registrations'}
 
